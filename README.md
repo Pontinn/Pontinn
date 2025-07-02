@@ -1,5 +1,5 @@
-# Olá! Eu sou o Leonardo Pontin 👋
-
+# Olá! Eu sou o Leonardo "Pontin" 👋
+![Apelido](https://img.shields.io/badge/Apelido-Pontin-blue?style=for-the-badge)
 ### Desenvolvedor de Software | Apaixonado por Tecnologia e Soluções Inovadoras
 
 <div align="center">
@@ -13,7 +13,7 @@
 
 ## 👨‍💻 Sobre Mim
 
-Sou um desenvolvedor de software apaixonado por criar soluções de ponta, com sólida experiência em ecossistemas como **Java (Spring)** e **JavaScript (Node.js, React)**. Minha jornada na programação é movida pela curiosidade e pelo desafio de transformar ideias complexas em software eficiente e de alta qualidade.
+Sou um desenvolvedor de software apaixonado por criar soluções de ponta, com experiência em ecossistemas como **Java (Spring)** e **JavaScript (Node.js, React e Next.js)**. Minha jornada na programação é movida pela curiosidade e pelo desafio de transformar ideias complexas em software eficiente e de alta qualidade.
 
 - 🚀 Atualmente aprofundando meus conhecimentos em desenvolvimento back-end, mas também possuo conhecimento em front-end.
 - 💡 Tenho um fascínio especial por arquiteturas de software, integração entre sistemas e a exploração de novas tecnologias.
@@ -35,22 +35,23 @@ Minha caixa de ferramentas inclui tecnologias modernas para o desenvolvimento ba
 
 ---
 
-## ✨ Projeto em Destaque
+## ✨ Projetos em Destaque
+
+### 🔗 Gerador de Links para WhatsApp
+Uma ferramenta web moderna e performática para criar links diretos de conversa para o WhatsApp. Desenvolvido para ser uma solução rápida e confiável, este gerador já auxilia diversos usuários e profissionais a otimizarem sua comunicação digital.
+
+-   **Tecnologias:** Next.js, React, JavaScript.
+-   **Acesse a ferramenta:** [**geradordelinksparawhatsapp.pontin.dev**](https://geradordelinksparawhatsapp.pontin.dev/)
+-   **Repositório:** [**GitHub - link-whatsapp**](https://github.com/Pontinn/link-whatsapp)
+
+<br>
 
 ### 🍳 MagicFridgeAI - Sua Geladeira Inteligente
-
-O **MagicFridgeAI** é uma aplicação backend que transforma uma simples lista de ingredientes em receitas criativas e bem-humoradas, utilizando o poder da IA da OpenAI. O sistema não só gera o passo a passo da receita, mas também cria uma imagem do prato finalizado.
-
--   **Funcionalidades Principais:**
-    -   API RESTful para gerenciamento completo (CRUD) de ingredientes.
-    -   Geração de receitas com o modelo `gpt-4.1`, garantindo criatividade e um toque de humor.
-    -   Criação de imagens realistas dos pratos com o modelo `dall-e-3`.
-    -   Uso de `WebClient` do Spring WebFlux para comunicação reativa com as APIs externas.
-    -   Gerenciamento de schema do banco de dados com Flyway para migrações versionadas.
+Uma aplicação backend que transforma uma simples lista de ingredientes em receitas criativas e bem-humoradas, utilizando o poder da IA da OpenAI. O sistema não só gera o passo a passo da receita, mas também cria uma imagem do prato finalizado.
 
 -   **Tecnologias:** Java 21, Spring Boot, Spring Data JPA, H2 Database, Maven e OpenAI API.
-
--   **Status:** O projeto está em desenvolvimento contínuo. Novas funcionalidades, como uma interface frontend para interagir com a API, serão implementadas em breve para aprimorar a experiência do usuário.
+-   **Status:** Em desenvolvimento contínuo. Novas funcionalidades, como uma interface frontend, serão implementadas.
+-   **Repositório:** [**GitHub - magic-fridge-ai**](https://github.com/Pontinn/magic-fridge-ai)
 
 ---
 
