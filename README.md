@@ -37,7 +37,7 @@ Minha caixa de ferramentas inclui tecnologias modernas para o desenvolvimento ba
 ## ✨ Projetos em Destaque
 
 ### 🔗 Gerador de Links para WhatsApp
-Uma ferramenta web moderna e performática para criar links diretos de conversa para o WhatsApp. Desenvolvido para ser uma solução rápida e confiável, este gerador já auxilia diversos usuários e profissionais a otimizarem sua comunicação digital.
+Uma ferramenta web moderna e performática para criar links diretos de conversa para o WhatsApp. Desenvolvido para ser uma solução rápida e confiável, este gerador **já auxilia** diversos usuários e profissionais a otimizarem sua comunicação digital.
 
 -   **Tecnologias:** Next.js, React, JavaScript.
 -   **Acesse a ferramenta:** [**geradordelinksparawhatsapp.pontin.dev**](https://geradordelinksparawhatsapp.pontin.dev/)
