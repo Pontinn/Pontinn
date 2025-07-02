@@ -1,5 +1,4 @@
 # Olá! Eu sou o Leonardo "Pontin" 👋
-![Apelido](https://img.shields.io/badge/Apelido-Pontin-blue?style=for-the-badge)
 ### Desenvolvedor de Software | Apaixonado por Tecnologia e Soluções Inovadoras
 
 <div align="center">
