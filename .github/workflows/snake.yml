@@ -1,0 +1,41 @@
+name: Gerar cobrinha das contribuicoes
+
+on:
+  # roda automaticamente uma vez por dia
+  schedule:
+    - cron: "0 3 * * *"
+
+  # permite rodar manualmente a qualquer momento
+  workflow_dispatch:
+
+  # roda a cada push na main
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      # gera o SVG da cobrinha a partir do grafico de contribuicoes do dono do repositorio
+      - name: Gerar github-snake.svg
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg?palette=github-light
+            dist/github-snake-dark.svg?color_snake=#ff79c6&color_dots=#282a36,#44475a,#6272a4,#9580d6,#bd93f9
+
+      # publica o conteudo de dist/ na branch output
+      # os arquivos ficam em https://raw.githubusercontent.com/Pontinn/Pontinn/output/<arquivo>
+      - name: Publicar SVG na branch output
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

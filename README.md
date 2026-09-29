@@ -19,9 +19,17 @@
 
 <div align="center">
   <a href="https://github.com/Pontinn">
-    <img height="170em" src="https://github-readme-stats.vercel.app/api?username=Pontinn&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide_border=true" alt="Estatisticas do GitHub" />
-    <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pontinn&layout=compact&langs_count=8&theme=dracula&hide_border=true" alt="Linguagens mais usadas" />
+    <img height="170em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Pontinn&theme=dracula" alt="Estatisticas do GitHub" />
+    <img height="170em" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Pontinn&theme=dracula" alt="Linguagens mais usadas" />
   </a>
+</div>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Pontinn/Pontinn/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Pontinn/Pontinn/output/github-snake.svg" />
+    <img alt="Cobrinha comendo minhas contribuicoes" src="https://raw.githubusercontent.com/Pontinn/Pontinn/output/github-snake-dark.svg" width="100%" />
+  </picture>
 </div>
 
 ---
